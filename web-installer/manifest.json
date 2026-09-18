@@ -1,0 +1,13 @@
+{
+  "name": "Room Monitor for M5StickC Plus 1.1",
+  "version": "0.1.0",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "room-monitor-m5stickc-plus.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
